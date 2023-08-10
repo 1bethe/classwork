@@ -1,0 +1,52 @@
+.all{
+    background-image: url(ps.jpg);
+    background-repeat: repeat;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+nav ul a{
+
+    color: rgb(129, 150, 36);
+    font-weight: bold;
+    margin: 10px 20px;
+}
+nav ul a:hover{
+    color: rgb(64, 57, 128);
+}
+h1{
+    display: flexbox;
+    font-family: 'Borel', cursive;
+    text-align: center;
+    color: gold;
+     
+}
+    
+p{
+    font-size: x-large;
+    color: blue;
+    text-align: center;
+}
+.label{
+    padding-left: 50%;
+    color: blue;
+}
+.SUBMIT{
+    color: rgb(0, 0, 3);
+    background-color: blueviolet;
+}
+.SUBMIT:hover{
+    color: orangered;
+    background-color: green;
+}
+footer{
+    background-color: rgb(193, 112, 218);
+    height: 100px;
+    padding-left: 48%;
+    margin: 10px;
+}
